@@ -35,7 +35,7 @@ jobs:
           context: ./
           push: true
           file: ./Dockerfile
-          tags: USUARIO_DOCKERHUB/webacademy-gcp:latest
+          tags: leosemstronda/webacademy-gcp:latest
   deploy:
     needs: lint
     name: Setup Gcloud Account

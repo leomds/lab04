@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: USUARIO_DOCKERHUB/webacademy-gcp:latest
+    image: leosemstronda/webacademy-gcp:latest
     container_name: webacademydemo
     restart: always
     ports:
